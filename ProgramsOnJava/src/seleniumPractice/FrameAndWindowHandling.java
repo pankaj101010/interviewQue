@@ -14,9 +14,7 @@ import org.testng.annotations.Test;
 
 public class FrameAndWindowHandling {
 	WebDriver driver;
-	
-	
-	
+
 	@Test
 	public void ts_01() throws InterruptedException {
        System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
